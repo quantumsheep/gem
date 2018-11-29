@@ -1,12 +1,10 @@
 require "http/server"
 
-module Gem
-  class Response
-    def initialize(@response : HTTP::Server::Response)
-    end
+class Gem::Response
+  def initialize(@response : HTTP::Server::Response)
+  end
 
-    def send(data)
-      @response.print data
-    end
+  def send(data)
+    @response.print data
   end
 end
