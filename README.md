@@ -1,5 +1,5 @@
 # Gem
-Fast, unopinionated, minimalist web framework for [Crystal](https://crystal-lang.org/) trying to ressemble like [express](https://github.com/expressjs/express) (NodeJS Framework).
+Fast, unopinionated, minimalist web framework for [Crystal](https://crystal-lang.org/) trying to be like [express](https://github.com/expressjs/express) (NodeJS Framework).
 
 ```crystal
 require "gem";
